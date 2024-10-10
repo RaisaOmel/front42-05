@@ -40,7 +40,22 @@ h6,
     padding: 20px;
 }
 
-section img{
+.box{
+    border: 2px solid #6f0f1f;
+    margin-bottom: 60px;
+}
+
+.box2{
+    background-image: url("../img/ava7patterns_pattern_1016.png");
+    background-repeat: repeat-x;
+}
+
+.box3{
+    background: rgb(0,32,36);
+    background: linear-gradient(135deg, rgba(0,32,36,1) 0%, rgba(119,163,67,0.6446953781512605) 36%, rgba(163,133,67,1) 53%, rgba(163,133,67,1) 53%, rgba(163,75,67,0.8) 53%);
+}
+
+.box img{
     width: 100%;
 }
 
@@ -67,7 +82,7 @@ section img{
     /* background-repeat: repeat-y; */
     background-image: url("../img/Screenshot_1.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;  /* content */
     background-position: 0 bottom;
     background-attachment: fixed;
 }
